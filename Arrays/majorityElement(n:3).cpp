@@ -1,8 +1,9 @@
+//Day3
 #include <bits/stdc++.h> 
 vector<int> majorityElementII(vector<int> &arr)
 {
     // Write your code here.
-     int nums1 = -1;
+    int nums1 = -1;
     int nums2 = -1;
     int cnt1 = 0;
     int cnt2 = 0;

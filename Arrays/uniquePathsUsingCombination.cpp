@@ -1,3 +1,4 @@
+//Day 3
 class Solution {
 public:
     int ncr_basic(int n, int r){

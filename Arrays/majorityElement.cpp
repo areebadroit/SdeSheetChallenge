@@ -1,3 +1,4 @@
+//Day 3
 class Solution {
 public:
     int majorityElement(vector<int>& arr) {

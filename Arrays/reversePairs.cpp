@@ -1,3 +1,4 @@
+//Day 3
 #include <bits/stdc++.h> 
 int mergeAndCount(vector<int> &arr, int start, int mid, int end){
     int count = 0;

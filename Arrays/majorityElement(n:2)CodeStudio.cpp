@@ -1,3 +1,4 @@
+//Day 3
 #include <bits/stdc++.h> 
 int findMajorityElement(int arr[], int n) {
     // Write your code here.
