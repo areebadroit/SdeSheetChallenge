@@ -1,3 +1,4 @@
+//Solution 1
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -6,7 +7,7 @@ public:
         int rightIndex = 0;
         int maxLen = 0;
         unordered_set<char> hashSet;
-        while(leftIndex<sLen&&rightIndex<sLen){
+        while(rightIndex<sLen){
             if(hashSet.find(s[rightIndex])==hashSet.end()){
                 //no repeat
                 hashSet.insert(s[rightIndex]);
@@ -20,3 +21,5 @@ public:
         return maxLen;
     }
 };
+
+// Solution 2 - Instead of using set, we will use map to optimise the code
